@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BMI ADVANCED</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="head">
+            <h4>BMI CALCULATOR</h4>
+
+        </header>
+        <hr>
+        <div class="lowerSection">
+            <div class="forms">
+                <form>
+                    <input type="number" id="weight" placeholder="Insert Weight">
+                    <input type="number" id="height" placeholder="Insert Height">
+                    <input type="button" value="Calculate" onclick="BMI()" id="button">
+                    <input type="button" value="Reset" onclick="CLR()" id="button">
+                </form>
+
+            </div>
+
+            <div class="outputArea">
+
+                <textarea id="output"></textarea>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
